@@ -1,0 +1,25 @@
+batch_size: 1
+epochs: 1
+image_height: 256
+image_width: 256
+image_shape: [256, 256, 3]
+random_seed: 1
+val_split: 0.2
+augmentation:
+  rotation: 0.2
+  noise_step: 0.01
+  noise_limit: 0.4
+  testing: no
+generator_training:
+  optimizer: Adam
+  loss: mse
+discriminator_training:
+  optimizer: Adam
+  loss: mse
+  metrics: [accuracy]
+gan_training:
+  optimizer: Adam
+  loss: [mse, mae]
+  loss_weights: [1, 100]
+
+

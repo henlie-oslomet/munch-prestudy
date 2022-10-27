@@ -1,0 +1,5 @@
+/venv/
+data/ImageNet-Sketch
+data/train
+data/test
+venv/

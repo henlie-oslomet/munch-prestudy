@@ -1,0 +1,8 @@
+tensorflow~=2.10.0
+tensorflow_datasets
+PyYAML~=6.0
+matplotlib~=3.6.0
+opencv-python==4.6.0.66
+opensimplex~=0.4.3
+IPython
+tensorflow-addons
